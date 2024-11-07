@@ -2,10 +2,10 @@ import React from 'react'
 import Product from '../Data/Product'
 
 
-const Pricee = ({Product}) => {
+const Pricee = ({price}) => {
   return (
     <div>
-      {Product.Price}
+      {price}
     </div>
   )
 }

@@ -1,11 +1,10 @@
 import React from 'react'
-import Product from '../Data/Product'
 
 
-const Namee = ({Product}) => {
+const Namee = ({name}) => {
   return (
     <div>
-      {Product.name}
+      {name}
     </div>
   )
 }

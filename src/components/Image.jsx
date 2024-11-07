@@ -1,9 +1,9 @@
 import React from 'react'
-import Product from '../Data/Product'
-const Image = ({Product}) => {
+
+const Image = ({url}) => {
   return (
     <div>
-      <img src={Product.url}/>
+      <img src={url}/>
     </div>
   )
 }
