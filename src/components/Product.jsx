@@ -3,6 +3,9 @@ import Namee from './Namee'
 import Image from './Image'
 import Pricee from './Pricee'
 
+
+
+
 const Product = ({product}) => {
   return (
     <div className='row'>
